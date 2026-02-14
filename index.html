@@ -3,10 +3,45 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- css connect but in this project not use css only use tailwind -->
     <link rel="stylesheet" href="css/styles.css">
+    <!-- tailwind add -->
+ <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <!-- manrope font add -->
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
+<!-- font awesome cdn add -->
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<style>
+    *{
+         font-family: "Manrope", sans-serif;
+    }
+</style>
     <title>tea-house</title>
 </head>
 <body>
-    <h1>hello tea house project</h1>
+    <!-- banner section area -->
+    <section class="grid grid-cols-2 border border-b-blue-500 container mx-auto">
+        <div class="banner-left border border-b-emerald-300 mt-[70px] mb-[195px] space-y-[30px]">
+            <h2 class="text-[60px] font-bold text-[#1C1C1C]">It's good <br>
+          tea time at The <br>Tea House</h2>
+<p class="text-[#777777] ">Tea and Botanical Solutions Supplier Give Optimum <br> Satisfaction To Your Taste Buds.</p>
+<button class="px-5 py-3 text-white rounded-md font-semibold bg-linear-65 from-[#FF8938] to-[#FF0000]">Explore More <span class="inline-block rotate-45"><i class="fa-solid fa-arrow-up" style="color: rgba(116, 192, 252, 1);"></i></span></button>
+        </div>
+        <div class="banner-right border border-b-cyan-400 mt-[120px] mb-[130px]">
+            <img src="images/banner.png" alt="">
+            <div class="flex bg-amber-100">
+                <div >
+                    <img src="images/vector.png" alt=""  class="amber-300">
+                </div>
+                <div>
+                    <h1 class="text-[#1C1C1C] font-extrabold text-[30px]">5.00</h1>
+                    <p class="text-[#777777]">Trust Pilot Ratings</p>
+                </div>
+            </div>
+        </div>
+    </section>
+   
 </body>
 </html>
